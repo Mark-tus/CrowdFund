@@ -1,0 +1,59 @@
+.btn,
+.btn:hover {
+  color: white;
+  background: rgb(159 0 255 / 52%);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+input[type="search"] {
+  color: white;
+  backdrop-filter: blur(4px);
+  background: rgba(150, 144, 144, 0.25);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.logo {
+  width: 3rem;
+}
+
+.sidebar {
+  background: red;
+  position: fixed;
+  margin-left: 20px;
+  color: white;
+  backdrop-filter: blur(4px);
+  background: rgba(150, 144, 144, 0.25);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  top: 50vh;
+  translate: 0 -50%;
+}
+
+.link {
+  scale: 1.5;
+}
+
+.cover {
+  background-color: #860dd6;
+  width: 80%;
+  height: 10%;
+  opacity: 0.5;
+  position: absolute;
+  top: 12px;
+}
+
+@media screen and (max-width:768px) 
+{
+.sidebar{
+  display: none !important;
+}
+.createCampaign{
+  display: none !important;
+}
+}

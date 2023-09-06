@@ -1,0 +1,40 @@
+.Card {
+  width: 100%;
+  margin: 1rem;
+  transition: all 0.5s ease;
+  background: rgba(150, 144, 144, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.Card:hover {
+  scale: 1.05;
+}
+.vl {
+  opacity: 0.5;
+  border: 1px solid white;
+}
+
+.cardImg{
+    width: 100%;
+    object-fit: cover;
+    height: 180px;
+}
+@media screen and (min-width: 1124px) {
+  .Card {
+    width: 20%;
+  }
+ 
+}
+@media screen and (min-width: 425px) and (max-width:768px) {
+  .Card{
+    width: 45%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width:1124px) {
+  .Card{
+    width: 33%;
+  }
+}
