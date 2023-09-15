@@ -5,11 +5,11 @@ body {
 }
 
 :root {
-  --backgroundColor: #1b1f22;
+  --backgroundColor: #656565;
 }
 
 .cardContainer {
-  color: white;
+  color: rgb(250, 250, 250);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
