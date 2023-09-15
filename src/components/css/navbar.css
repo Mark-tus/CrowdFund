@@ -39,13 +39,17 @@ input[type="search"] {
   scale: 1.5;
 }
 
+.link:hover{
+  transform: scale(1.2);
+}
+
 .cover {
   background-color: #860dd6;
-  width: 80%;
-  height: 10%;
+  width: 140%;
+  height: 140%;
   opacity: 0.5;
-  position: absolute;
-  top: 12px;
+  border-radius: 5px;
+
 }
 
 @media screen and (max-width:768px) 

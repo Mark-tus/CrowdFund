@@ -2,7 +2,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import "./css/card.css";
 export function Card(props) {
-  const { title, desc, type, totalRaised, totalNeeded, daysLeft, totalDays } =
+  const { title, desc, type, Discount , Number_of_products , offer_validity  } =
     props.campaign;
   return (
     <div className="Card rounded-5 p-3">
@@ -26,19 +26,15 @@ export function Card(props) {
         <div className="rasied d-flex flex-column align-items-center">
           <span className="d-flex align-items-center">
             <Icon icon="streamline:money-currency-bitcoin-circle-1-crypto-circle-payment-blockchain-finance-bitcoin-currency-money" />{" "}
-            &nbsp; {totalRaised}
+            &nbsp; {Discount}
           </span>
           <span className="fw-light text-secondary">
-            Raised of {totalNeeded}
+            Discount {Number_of_products}
           </span>
         </div>
         <div className="vl mx-1" />
         <div className="daysLeft d-flex flex-column align-items-center">
-          <span>{daysLeft}</span>
-          <span className="fw-light text-secondary">
-            <Icon icon="material-symbols:timer-outline" /> Days Left /{" "}
-            {totalDays}
-          </span>
+          <span>{offer_validity}</span>
         </div>
       </div>
     </div>
