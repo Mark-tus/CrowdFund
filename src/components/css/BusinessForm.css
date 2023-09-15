@@ -1,0 +1,64 @@
+/* CSS for Business Builder Form */
+.form-container {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+    min-height: 100px; /* Set a minimum height for the textarea */
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #fff; /* Background color for select elements */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Adjust the button color as needed */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Adjust the hover color as needed */
+}
+
+/* Optional: Style for the form header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
