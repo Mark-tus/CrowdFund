@@ -25,8 +25,7 @@ export function Card(props) {
       <div className="meta d-flex justify-content-around mb-2 text-center text-wrap">
         <div className="rasied d-flex flex-column align-items-center">
           <span className="d-flex align-items-center">
-            <Icon icon="streamline:money-currency-bitcoin-circle-1-crypto-circle-payment-blockchain-finance-bitcoin-currency-money" />{" "}
-            &nbsp; {Discount}
+          <Icon icon="ic:outline-discount" />&nbsp; {Discount}
           </span>
           <span className="fw-light text-secondary">
             Discount {Number_of_products}
@@ -35,6 +34,7 @@ export function Card(props) {
         <div className="vl mx-1" />
         <div className="daysLeft d-flex flex-column align-items-center">
           <span>{offer_validity}</span>
+          <button className="reviewButton">Review</button>
         </div>
       </div>
     </div>

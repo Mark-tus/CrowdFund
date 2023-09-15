@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import { Icon } from "@iconify/react";
 import "./css/navbar.css";
 import logo from '../assets/logo.png'
-
 function Navbar() {
 
   const [isHovered, setIsHovered] = useState(false);

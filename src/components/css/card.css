@@ -38,3 +38,8 @@
     width: 33%;
   }
 }
+
+.reviewButton{
+  border-radius: 5px;
+  background-color: gold;
+}
